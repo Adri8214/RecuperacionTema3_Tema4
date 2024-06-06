@@ -3,7 +3,7 @@ package Ejercicio1;
 public class Criatura {
 
     private String nombre;
-    private int edad;
+    private  int edad;
     private int nivelEnergia;
 
     public Criatura(String nombre, int edad) throws RuntimeException {
@@ -12,7 +12,7 @@ public class Criatura {
             throw new RuntimeException("El nombre no es correcto");
         }
         this.edad = edad;
-        if(edad != this.edad){
+        if(this.edad != edad){
             throw new RuntimeException("La edad no es correcta");
         }
     }

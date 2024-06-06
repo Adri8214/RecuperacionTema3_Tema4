@@ -26,8 +26,5 @@ public class P1Principal {
 
         m1.realizarAccion();
 
-
-
-
     }
 }
